@@ -1,0 +1,103 @@
+::selection {
+  color: #07152c;
+  background: #d9ff43;
+}
+
+body {
+  text-rendering: optimizeLegibility;
+}
+
+button,
+a,
+input,
+textarea,
+select {
+  transition:
+    color 160ms ease,
+    background-color 160ms ease,
+    border-color 160ms ease,
+    box-shadow 160ms ease,
+    transform 160ms ease;
+}
+
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  outline: 3px solid #20e2a8;
+  outline-offset: 3px;
+}
+
+.system-header {
+  box-shadow: 0 12px 38px rgb(10 18 30 / 22%);
+}
+
+.view-title h1 {
+  font-size: 38px;
+  line-height: 1.02;
+}
+
+.view-title p {
+  max-width: 720px;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.metric-strip > div {
+  min-height: 76px;
+}
+
+.metric-strip strong {
+  font-size: 26px;
+}
+
+.temperature-envelope,
+.evidence-workspace,
+.audit-workspace,
+.release-workspace {
+  box-shadow: 0 24px 58px rgb(10 18 30 / 18%);
+}
+
+.instrument-form input,
+.instrument-form textarea,
+.instrument-form select {
+  min-height: 44px;
+  font-size: 14px;
+}
+
+.instrument-form textarea {
+  min-height: 104px;
+}
+
+.command-button,
+.secondary-command {
+  min-height: 44px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.status-flag {
+  min-height: 28px;
+  padding-inline: 10px;
+}
+
+@media (min-width: 821px) {
+  .view-stage {
+    padding: 26px;
+  }
+
+  .release-rail {
+    box-shadow: -14px 0 38px rgb(10 18 30 / 14%);
+  }
+}
+
+@media (max-width: 820px) {
+  .view-title h1 {
+    font-size: 34px;
+  }
+
+  .metric-strip > div {
+    min-height: 66px;
+  }
+}
