@@ -11,7 +11,7 @@ Frostline helps logistics and quality teams decide whether a temperature-sensiti
 | Protocol | Frostline Release Board |
 | Network | GenLayer Studionet, chain `61999` |
 | Contract | [`0x14CeeB8affdFefd69Ad1f6Db9472Ea72fED1ff5B`](https://explorer-studio.genlayer.com/address/0x14CeeB8affdFefd69Ad1f6Db9472Ea72fED1ff5B) |
-| Live app: https://marwikoo.github.io/frostline/
+| Live app: | https://marwikoo.github.io/frostline/ |
 | Contract methods | 25 |
 | Neutral outcome | `inspection_required` |
 | Deployment state | `configured_verified` |
